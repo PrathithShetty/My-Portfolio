@@ -51,7 +51,7 @@ function Background() {
     <div className="fixed inset-0 -z-10">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "radial-gradient(circle at 40% 20%, rgba(124, 58, 237, 0.5), rgba(0, 0, 0, 0.85) 70%)" }}
+        style={{ backgroundImage: "url('/file.svg')" }}
       />
       <div className="absolute inset-0 bg-black/60" />
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-black" />
@@ -139,7 +139,7 @@ function Hero() {
       {/* IMAGE */}
       <div className="relative bg-white p-3 rounded-xl shadow-lg">
         <img
-          src="/profile.jpg.JPG"
+          src="/profile.jpg"
           className="w-[260px] md:w-[300px] h-[340px] object-cover rounded-lg border border-gray-200"
           alt="Prathith Shetty"
         />

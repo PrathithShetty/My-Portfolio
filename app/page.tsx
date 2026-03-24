@@ -51,9 +51,9 @@ function Background() {
     <div className="fixed inset-0 -z-10">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/bg.jpg')" }}
+        style={{ backgroundImage: "radial-gradient(circle at 40% 20%, rgba(124, 58, 237, 0.5), rgba(0, 0, 0, 0.85) 70%)" }}
       />
-      <div className="absolute inset-0 bg-black/70" />
+      <div className="absolute inset-0 bg-black/60" />
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-black" />
     </div>
   );
@@ -139,8 +139,9 @@ function Hero() {
       {/* IMAGE */}
       <div className="relative bg-white p-3 rounded-xl shadow-lg">
         <img
-          src="/profile.jpg.jpg"
+          src="/profile.jpg.JPG"
           className="w-[260px] md:w-[300px] h-[340px] object-cover rounded-lg border border-gray-200"
+          alt="Prathith Shetty"
         />
 
         <div className="absolute bottom-2 right-2 bg-purple-500 px-3 py-1 rounded-full text-xs">
@@ -165,7 +166,7 @@ function About() {
 
             In addition to my academic work, I have gained business and operational experience by managing accounts using Tally and supporting day-to-day operations in my family’s hotel business. I have also served as a class representative for nearly two years, strengthening my leadership, communication, and organizational abilities.
 
-            My role in handling hotel operations-including coordinating staff, managing customer requirements, and ensuring smooth execution of events-has helped me develop strong problem-solving skills and the ability to make effective decisions under pressure.
+            My role in handling hotel operations-including coordinating staff, managing customer requirements, and ensuring smooth execution of events-npm has helped me develop strong problem-solving skills and the ability to make effective decisions under pressure.
 
             I am keen to apply my technical knowledge and leadership experience to create efficient, impactful solutions while continuing to grow as a professional..
           </p>
